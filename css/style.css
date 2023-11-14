@@ -1,0 +1,159 @@
+body {
+  background: linear-gradient(90deg, #0c164d 0%, #190b22 100%);
+  color: white;
+}
+
+#name {
+  font-size: 30px;
+}
+
+h1 {
+  font-family: Secular One;
+  font-weight: 400;
+}
+
+#latin {
+  font-family: Lora;
+  font-weight: 400;
+  letter-spacing: 0.6em;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+#title h1 {
+  margin-bottom: 10px;
+}
+
+#title p {
+  margin: 0;
+  color: #ffd029;
+}
+
+.none {
+  display: none;
+}
+.planets_info {
+  display: none;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  backdrop-filter: 4px;
+}
+
+.show {
+  display: block;
+}
+
+.planets {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 50px;
+  transform: translateY(-100px);
+}
+
+.planets aside {
+  width: 10%;
+  height: 20vh;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.underborder {
+  border-bottom: gray 2px solid;
+  width: 100%;
+}
+
+#latin {
+  color: #ffd029;
+}
+
+#sun {
+  background-color: #ffd029;
+  height: 80vh;
+  width: 900%;
+  border-radius: 1000px;
+  transform: translateX(-90%);
+}
+
+#mercury {
+  background-color: #888888;
+  height: 10px;
+  width: 10px;
+}
+
+#venus {
+  background-color: #e7cdcd;
+  height: 20px;
+  width: 20px;
+}
+
+#tellus {
+  background-color: #428ed4;
+  height: 22px;
+  width: 22px;
+}
+
+#mars {
+  background-color: #ef5f5f;
+  height: 18px;
+  width: 18px;
+}
+
+#jupiter {
+  background-color: #e29468;
+  border-radius: 150px;
+  height: 150px;
+  width: 150px;
+}
+
+#saturn {
+  background-color: #c7aa72;
+  border-radius: 150px;
+  height: 120px;
+  width: 120px;
+}
+
+#saturn__ring {
+  width: 120%;
+  height: 0.5vh;
+  background-color: gray;
+  border-radius: 500px;
+  transform: translate(-26px, 55px);
+  rotate: -15deg;
+}
+
+#neptune {
+  background-color: #c9d4f1;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+#uranus {
+  background-color: #7a91a7;
+  border-radius: 45px;
+  height: 45px;
+  width: 45px;
+}
+
+#moons {
+  width: 100%;
+  word-break: break-word;
+}
+
+.planets__info__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+article a {
+  font-family: Lora;
+  text-decoration: none;
+  color: #ffd029;
+}
